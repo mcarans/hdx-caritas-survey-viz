@@ -1,0 +1,101 @@
+.marginbottom {
+	margin-bottom:20px;
+}
+
+#timeslider {
+	width:800px;
+}
+
+#questions {
+    max-height: 100%;
+    overflow: scroll;
+}
+
+#notes {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  stroke-width:0px;
+  shape-rendering: crispEdges;
+}
+
+.questionbox {
+    min-height: 80px;
+	border-bottom-width:1px;
+	border-bottom-color:#ddd;
+	border-bottom-style:solid;
+	padding:10px;
+  cursor: pointer;
+}
+
+.numberlabel {
+	font-size:20px;
+	font-weight:800;
+}
+
+.numberlabelsmall {
+  font-size:12px;
+  font-weight:400;
+}
+
+#map {
+	height:500px;
+}
+
+#graph {
+  min-height:500px;
+}
+
+#aggregators{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.info {
+    padding: 6px 8px;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.legend {
+    line-height: 18px;
+    color: #555555;
+}
+
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+.rightspace {
+	margin-right:20px;
+}
+
+.radio {
+  display:inline-block;
+    margin-top: 0 !important;
+}
+
+.chartbutton{
+  margin-right:15px;
+  margin-bottom:10px;
+  width:150px;
+}
+
+/*
+.sticky {
+    position: fixed;
+    top: 0px;
+    margin-right:120px;
+}*/
