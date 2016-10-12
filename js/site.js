@@ -69,7 +69,9 @@ function initDash(data) {
 	cf.questionsDim.filter(questions[0]);
 	$('#question').html(questions[0]);
 	genQuestion(cf.questionsDim.top(Infinity));
-
+	$('#questions').mCustomScrollbar({
+		theme: 'dark'
+	});
 }
 
 // question initialisation
