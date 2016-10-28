@@ -2,18 +2,15 @@ Question,Location Name,Answer,Count
 Daughters Married or Pregnant before 18,Kasese,N/A,16
 Daughters Married or Pregnant before 18,Kasese,No,109
 Daughters Married or Pregnant before 18,Kasese,Yes,25
+Distance from Source of Water,Kasese,0.5km or less,50
+Distance from Source of Water,Kasese,0.5km to 1km,46
 Distance from Source of Water,Kasese,1-2km,36
 Distance from Source of Water,Kasese,2-5 km,14
-Distance from Source of Water,Kasese,500m to 1km,46
-Distance from Source of Water,Kasese,Above 5km,4
-Distance from Source of Water,Kasese,Less than 500m,50
+Distance from Source of Water,Kasese,5km or more,4
 Either Spouse below 18 when had First Child,Kasese,N/R,2
 Either Spouse below 18 when had First Child,Kasese,N/R,7
 Either Spouse below 18 when had First Child,Kasese,No,105
 Either Spouse below 18 when had First Child,Kasese,Yes,36
-Food Relief Assistance used Last Season,Kasese,N/R,6
-Food Relief Assistance used Last Season,Kasese,No,141
-Food Relief Assistance used Last Season,Kasese,Yes,3
 Good Crop of Vegetables in Garden,Kasese,N/R,1
 Good Crop of Vegetables in Garden,Kasese,N/R,4
 Good Crop of Vegetables in Garden,Kasese,No,26
@@ -22,12 +19,12 @@ Harvested Food lasted until Next Harvest,Kasese,No,34
 Harvested Food lasted until Next Harvest,Kasese,Yes,116
 Have Vegetable Garden,Kasese,No,11
 Have Vegetable Garden,Kasese,Yes,139
-Income of Household Head Shillings/Month,Kasese,1-50000,25
-Income of Household Head Shillings/Month,Kasese,100001–150000,30
-Income of Household Head Shillings/Month,Kasese,150001–250000,37
-Income of Household Head Shillings/Month,Kasese,250001-350000,8
-Income of Household Head Shillings/Month,Kasese,350000+,22
-Income of Household Head Shillings/Month,Kasese,50001–100000,28
+Income of Household Head Shillings/Month,Kasese,1. 1-50000,25
+Income of Household Head Shillings/Month,Kasese,2. 50001–100000,28
+Income of Household Head Shillings/Month,Kasese,3. 100001–150000,30
+Income of Household Head Shillings/Month,Kasese,4. 150001–250000,37
+Income of Household Head Shillings/Month,Kasese,5. 250001-350000,8
+Income of Household Head Shillings/Month,Kasese,6. 350000+,22
 Main Occupation of Head of Household,Kasese,Formal/Salaried Employment,12
 Main Occupation of Head of Household,Kasese,Others,3
 Main Occupation of Head of Household,Kasese,Piece/Casual Work/Wage Labour,2
@@ -88,11 +85,11 @@ Meals per Day,Kasese,2,32
 Meals per Day,Kasese,3,109
 Meals per Day,Kasese,4,3
 Meals per Day,Kasese,N/R,2
-No of 100kg Bags of Maize Harvested,Kasese,0,14
-No of 100kg Bags of Maize Harvested,Kasese,1-5,98
-No of 100kg Bags of Maize Harvested,Kasese,11-20,2
-No of 100kg Bags of Maize Harvested,Kasese,21-30,1
-No of 100kg Bags of Maize Harvested,Kasese,6-10,11
+No of 100kg Bags of Maize Harvested,Kasese,1. 0,14
+No of 100kg Bags of Maize Harvested,Kasese,2. 1-5,98
+No of 100kg Bags of Maize Harvested,Kasese,3. 6-10,11
+No of 100kg Bags of Maize Harvested,Kasese,4. 11-20,2
+No of 100kg Bags of Maize Harvested,Kasese,5. 21-30,1
 No of 100kg Bags of Maize Harvested,Kasese,N/A,24
 No of Bunches of Bananas Harvested,Kasese,0,1
 No of Bunches of Bananas Harvested,Kasese,0,12
@@ -100,17 +97,17 @@ No of Bunches of Bananas Harvested,Kasese,1-100,106
 No of Bunches of Bananas Harvested,Kasese,101-200,3
 No of Bunches of Bananas Harvested,Kasese,N/A,26
 No of Bunches of Bananas Harvested,Kasese,N/R,2
+No of Months Harvested Food will Last,Kasese,0 Months before next harvest,107
 No of Months Harvested Food will Last,Kasese,1 Month before Next Harvest,31
 No of Months Harvested Food will Last,Kasese,2 Months before Next Harvest,8
 No of Months Harvested Food will Last,Kasese,3 Months before Next Harvest,3
 No of Months Harvested Food will Last,Kasese,3+ Months before Next Harvest,1
-No of Months Harvested Food will Last,Kasese,Until next harvest,107
+No of Times Abused by Husband,Kasese,1 Time,3
+No of Times Abused by Husband,Kasese,2 Times,2
 No of Times Abused by Husband,Kasese,Cannot Remember,3
 No of Times Abused by Husband,Kasese,N/A,117
 No of Times Abused by Husband,Kasese,N/R,7
 No of Times Abused by Husband,Kasese,N/R,18
-No of Times Abused by Husband,Kasese,Once,3
-No of Times Abused by Husband,Kasese,Twice,2
 Number of Child Rights Known,Kasese,0,5
 Number of Child Rights Known,Kasese,1,4
 Number of Child Rights Known,Kasese,2,24
@@ -120,6 +117,9 @@ Number of Child Rights Known,Kasese,5+,15
 Number of Child Rights Known,Kasese,N/R,1
 Primary Source of Food for Household,Kasese,Own Production – Farming,146
 Primary Source of Food for Household,Kasese,Purchasing Food from Market,4
+Reliance on Food Relief Assistance Last Season,Kasese,N/R,6
+Reliance on Food Relief Assistance Last Season,Kasese,No,141
+Reliance on Food Relief Assistance Last Season,Kasese,Yes,3
 Secondary Source of Food for Household,Kasese,Borrowing Food from Friends and Relatives,3
 Secondary Source of Food for Household,Kasese,Exchange or Barter Trade,18
 Secondary Source of Food for Household,Kasese,Food on Loan from Shop and Business People,1
@@ -140,24 +140,24 @@ Tertiary Source of Food for Household,Kasese,Own Production – Farming,3
 Tertiary Source of Food for Household,Kasese,Purchasing Food from Market,23
 Tertiary Source of Food for Household,Kasese,Resorted to Burning Charcoal to Sell for Food,1
 Tertiary Source of Food for Household,Kasese,Sale Assets including Livestock to Buy Food,21
+Time to get Water on Foot,Kasese,0.5 Hours or less,54
+Time to get Water on Foot,Kasese,0.5-1 Hour,48
 Time to get Water on Foot,Kasese,1-2 Hours,34
 Time to get Water on Foot,Kasese,2-5 Hours,9
-Time to get Water on Foot,Kasese,30-60 Minutes,48
-Time to get Water on Foot,Kasese,Less than 30 Minutes,54
-Time to get Water on Foot,Kasese,More than 5 hours,4
+Time to get Water on Foot,Kasese,5 hours or more,4
 Time to get Water on Foot,Kasese,N/R,1
-When received Agriculture Training,Kasese,More than 1 Tear ago,2
+When received Agriculture Training,Kasese,In last 3 Months,53
 When received Agriculture Training,Kasese,More than 3 to 6 Months ago,71
 When received Agriculture Training,Kasese,More than 6 Months to 1 Year ago,24
-When received Agriculture Training,Kasese,Within last 3 Months,53
-When received Hygiene Training,Kasese,More than 1 Tear ago,5
+When received Agriculture Training,Kasese,More than a Year ago,2
+When received Hygiene Training,Kasese,In last 3 Months,33
 When received Hygiene Training,Kasese,More than 3 to 6 Months ago,82
 When received Hygiene Training,Kasese,More than 6 Months to 1 Year ago,27
+When received Hygiene Training,Kasese,More than a Year ago,5
 When received Hygiene Training,Kasese,N/R,1
 When received Hygiene Training,Kasese,N/R,1
 When received Hygiene Training,Kasese,Never been Trained,1
-When received Hygiene Training,Kasese,Within last 3 Months,33
-When visited by Agricultural Worker,Kasese,More than 1 Tear ago,4
+When visited by Agricultural Worker,Kasese,In last 3 Months,57
 When visited by Agricultural Worker,Kasese,More than 3 to 6 Months ago,61
 When visited by Agricultural Worker,Kasese,More than 6 Months to 1 Year ago,28
-When visited by Agricultural Worker,Kasese,Within last 3 Months,57
+When visited by Agricultural Worker,Kasese,More than a Year ago,4
