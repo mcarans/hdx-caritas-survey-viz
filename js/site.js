@@ -70,7 +70,9 @@ function initDash(data) {
 	$('#question').html(questions[0]);
 	genQuestion(cf.questionsDim.top(Infinity));
 	$('#questions').mCustomScrollbar({
-        theme: 'minimal-dark'
+        theme: 'minimal-dark',
+        contentTouchScroll: false,
+        documentTouchScroll: false
 	});
 }
 
