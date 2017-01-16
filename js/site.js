@@ -6,6 +6,7 @@ var config = {
 	locations: 'Location Name',
 	locationnames: 'Location Name',
 	datafile: 'data/caritas-kasese.csv',
+    notesfile: 'data/notes.txt',
 	confidenceinterval: false
 };
 
@@ -21,8 +22,14 @@ function loadData(){
 	    dataType: 'text',
 	});
 
-	$.when(dataCall).then(function (dataArgs) {
-		initDash(d3.csv.parse(dataArgs));
+    var notesCall = $.ajax({
+        type: 'GET',
+        url: config.notesfile,
+        dataType: 'text',
+    });
+
+    $.when(dataCall, notesCall).then(function (dataArgs, notesArgs) {
+        initDash(d3.csv.parse(dataArgs[0]), notesArgs[0]);
 	});
 
 }
@@ -30,7 +37,7 @@ function loadData(){
 // loaded data pass to dash and crossfilter created to obtain questions
 // crossfilter also used to get subset of filtered question
 
-function initDash(data) {
+function initDash(data, notes) {
 
 	// crossfilter of data
 	cf = crossfilter(data);
@@ -67,6 +74,7 @@ function initDash(data) {
 	// render first question be default
 
 	cf.questionsDim.filter(questions[0]);
+    $('#notes').html(notes);
 	$('#question').html(questions[0]);
 	genQuestion(cf.questionsDim.top(Infinity));
 	$('#questions').mCustomScrollbar({
