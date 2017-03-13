@@ -78,19 +78,8 @@ function initDash(data, notes) {
 	$('#question').html(questions[0]);
 	genQuestion(cf.questionsDim.top(Infinity));
 	$('#questions').mCustomScrollbar({
-        theme: 'minimal-dark'
-    }).on("mouseenter", function () { //cross-domain iframe mousewheel hack
-        $(this).find("iframe").css("pointer-events", "none");
-    }).on("mouseup", function () {
-        if (!$(this).find(".mCSB_scrollTools_onDrag").length) return;
-        setTimeout(function () {
-            $("#embedded-viz-iframe").trigger("mouseenter");
-        }, 1);
-    });
-    $(window).on("blur", function () {
-        $("#embedded-viz-iframe iframe").css("pointer-events", "auto");
-    }).on("focus", function () {
-        $("#embedded-viz-iframe").trigger("mouseenter");
+        theme: 'minimal-dark',
+        advanced: {releaseDraggableSelectors: $(top.document).find('#embedded-viz-iframe').contents().get()}
 	});
 }
 
