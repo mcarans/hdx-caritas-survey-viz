@@ -78,7 +78,8 @@ function initDash(data, notes) {
 	$('#question').html(questions[0]);
 	genQuestion(cf.questionsDim.top(Infinity));
 	$('#questions').mCustomScrollbar({
-        theme: 'minimal-dark'
+        theme: 'minimal-dark',
+        advanced: {releaseDraggableSelectors: $(top.document).find('#embedded-viz-iframe').contents()[0]}
 	});
 }
 
