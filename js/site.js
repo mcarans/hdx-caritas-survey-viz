@@ -77,9 +77,11 @@ function initDash(data, notes) {
     $('#notes').html(notes);
 	$('#question').html(questions[0]);
 	genQuestion(cf.questionsDim.top(Infinity));
-	$('#questions').mCustomScrollbar({
-        theme: 'minimal-dark'
-	});
+    $(document).ready(
+        function () {
+            $("#questions").niceScroll();
+        }
+    );
 }
 
 // question initialisation
